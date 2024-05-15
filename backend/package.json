@@ -1,0 +1,22 @@
+{
+  "name": "review_backend_api",
+  "version": "1.0.0",
+  "description": "This is my project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatih-Illeez/Movie-Review.git"
+  },
+  "author": "Fatih Illeez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatih-Illeez/Movie-Review/issues"
+  },
+  "homepage": "https://github.com/Fatih-Illeez/Movie-Review#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
