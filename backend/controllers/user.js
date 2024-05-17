@@ -1,3 +1,4 @@
-exports.createUser = (req, res) => {
-  res.send("<h1>Hello World!</h1>");
+exports.create = (req, res) => {
+  console.log(req.body);
+  res.json({ user: req.body });
 };
