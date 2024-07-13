@@ -17,6 +17,11 @@ const userSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  isVerified: {
+    type: Boolean,
+    required: true,
+    default: false,
+  },
 });
 
 // before saving the user, hash the password
